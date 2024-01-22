@@ -57,7 +57,7 @@ public class HelloWorld {
         System.out.println(zahlDouble1 + " + " + zahlDouble2 + " = " + (zahlDouble1 + zahlDouble2));
         System.out.println(zahlDouble1 + " < " + zahlDouble2 + " = " + (zahlDouble1 < zahlDouble2));
         System.out.println(zahlDouble1 + " > " + zahlDouble2 + " = " + (zahlDouble1 > zahlDouble2));
-        System.out.println(zahlDouble1 + " == " + zahlInt2 + " = " + (zahlDouble1 == zahlDouble2));
+        System.out.println(zahlDouble1 + " == " + zahlDouble2 + " = " + (zahlDouble1 == zahlDouble2));
 
         //float
         float zahlFloat1 = 65.4321F;
