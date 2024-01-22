@@ -26,13 +26,11 @@ public class HelloWorld {
         //Step 2.3: Print the value of 'sum' to the console, along with the text 'Sum: '.
         System.out.println("Sum: " + sum);
 
-
+        //3 Relational Operators
+        //Step 3.1: Perform arithmetic operations with two 'int' values
+        //(addition, subtraction, multiplication, division) and print the results on the console.
         int zahlInt1 = 52;
         int zahlInt2 = 19;
-        double zahlDouble1 = 34.56;
-        double zahlDouble2 = 17.4;
-        float zahlFloat1 = 65.4321F;
-        float zahlFloat2 = 12.3456F;
 
         System.out.println("\nInt:");
         System.out.println("----------");
@@ -40,26 +38,40 @@ public class HelloWorld {
         System.out.println(zahlInt1 + " - " + zahlInt2 + " = " + (zahlInt1 - zahlInt2));
         System.out.println(zahlInt1 + " * " + zahlInt2 + " = " + (zahlInt1 * zahlInt2));
         System.out.println(zahlInt1 + " / " + zahlInt2 + " = " + (zahlInt1 / zahlInt2));
-        System.out.println(zahlInt1 + " % " + zahlInt2 + " = " + (zahlInt1 % zahlInt2));
+
+        //Step 3.2: Compare 2 'int' values for: greater than, less than, equality, and print the results on the console.
         System.out.println(zahlInt1 + " > " + zahlInt2 + " = " + (zahlInt1 > zahlInt2));
         System.out.println(zahlInt1 + " < " + zahlInt2 + " = " + (zahlInt1 < zahlInt2));
         System.out.println(zahlInt1 + " == " + zahlInt2 + " = " + (zahlInt1 == zahlInt2));
+
+        //Step 3.3: Repeat steps 1 and 2, but this time use 'float' and 'double' values.
+        //double
+        double zahlDouble1 = 34.56;
+        double zahlDouble2 = 17.4;
 
         System.out.println("\nDouble:");
         System.out.println("----------");
         System.out.println(zahlDouble1 + " - " + zahlDouble2 + " = " + (zahlDouble1 - zahlDouble2));
         System.out.println(zahlDouble1 + " / " + zahlDouble2 + " = " + (zahlDouble1 / zahlDouble2));
-        System.out.println(zahlDouble1 + " % " + zahlDouble2 + " = " + (zahlDouble1 % zahlDouble2));
         System.out.println(zahlDouble1 + " * " + zahlDouble2 + " = " + (zahlDouble1 * zahlDouble2));
         System.out.println(zahlDouble1 + " + " + zahlDouble2 + " = " + (zahlDouble1 + zahlDouble2));
+        System.out.println(zahlDouble1 + " < " + zahlDouble2 + " = " + (zahlDouble1 < zahlDouble2));
+        System.out.println(zahlDouble1 + " > " + zahlDouble2 + " = " + (zahlDouble1 > zahlDouble2));
+        System.out.println(zahlDouble1 + " == " + zahlInt2 + " = " + (zahlDouble1 == zahlDouble2));
+
+        //float
+        float zahlFloat1 = 65.4321F;
+        float zahlFloat2 = 12.3456F;
 
         System.out.println("\nFloat:");
         System.out.println("----------");
         System.out.println(zahlFloat1 + " - " + zahlFloat2 + " = " + (zahlFloat1 - zahlFloat2));
         System.out.println(zahlFloat1 + " / " + zahlFloat2 + " = " + (zahlFloat1 / zahlFloat2));
-        System.out.println(zahlFloat1 + " % " + zahlFloat2 + " = " + (zahlFloat1 % zahlFloat2));
         System.out.println(zahlFloat1 + " * " + zahlFloat2 + " = " + (zahlFloat1 * zahlFloat2));
         System.out.println(zahlFloat1 + " + " + zahlFloat2 + " = " + (zahlFloat1 + zahlFloat2));
+        System.out.println(zahlFloat1 + " > " + zahlFloat2 + " = " + (zahlFloat1 > zahlFloat2));
+        System.out.println(zahlFloat1 + " < " + zahlFloat2 + " = " + (zahlFloat1 < zahlFloat2));
+        System.out.println(zahlFloat1 + " == " + zahlFloat2 + " = " + (zahlFloat1 == zahlFloat2));
 
 
 
